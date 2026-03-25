@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+</head>
+<body>
+    <style>
+        p::after {
+            content: "Textinho que vai entrar no final";
+        }
+
+        p::before {
+            content: "Textinho que vai entrar no inicio";
+        }
+
+        p::first-letter {
+            font-size: 60px;
+            font-weight: 700;
+        }
+
+        p::first-line {
+            color: red;
+        }
+    </style>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper sem in lobortis commodo. Maecenas iaculis libero in condimentum feugiat. Sed dignissim rutrum risus ut finibus. Sed nisl neque, vulputate vel urna ut, commodo egestas lacus. Phasellus efficitur purus in erat auctor dictum. Aenean vitae posuere massa. Suspendisse potenti. Mauris ut lectus id odio fringilla tincidunt sit amet quis diam. Duis scelerisque nec odio quis faucibus. Aenean quis tempor mi, sit amet maximus sapien. Etiam mauris erat, pulvinar quis mollis sed, tincidunt in nunc. Sed quis quam in mi aliquam mattis. Etiam sed placerat magna, semper pretium felis. Morbi hendrerit dui sed hendrerit tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec semper, odio eget convallis egestas, quam ipsum finibus eros, non vestibulum erat risus at purus.</p>
+</body>
+</html>
