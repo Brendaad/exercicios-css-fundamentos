@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Visualização</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        /* Block
+        Ocupa todo o espaço horizontal
+        Quera linhas
+        Box model se aplica
+        Padding e Margin funcionam normalmente */
+
+        h1 {
+            font-size: 3.2rem;
+            height: 5rem;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        h2 {
+            font-size: 2.4rem;
+        }
+
+        p {
+            display: block;
+            font-size: 1.6rem;
+        }
+
+        /* inline 
+        Ocupa apenas o espaço de conteúdo
+        Não quebra linha (fica loda a lado)
+        Box model NÃO se aplica
+        Padding e Margin só funcionam na horizontal
+        */
+
+        /* inline-block
+        Ocupa apenas o espaço de conteúdo
+        Não quebra linha (fica loda a lado)
+        Box model se aplica
+        Padding e Margin funcionam normalmente*/
+        
+        a {
+            display: inline-block;
+            font-size: 1.6rem;
+            height: 5rem;
+            margin: 2rem;
+        }
+
+        span {
+            display: none;
+            font-style: italic;
+            color: red;
+        }
+    </style>
+
+    <div>
+        <h1>Meu título</h1>
+        <h2>Meu subtítulo</h2>
+        <a href="">Acesse seu site</a>
+        <a href="">Acesse seu site</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin <b>pellentesque pellentesque risus,</b> vel aliquet sem tristique vitae. Pellentesque quis tempus sem. Morbi ultricies enim ac imperdiet posuere. Sed diam lacus, sodales et tortor id, sodales rhoncus justo. Cras rhoncus nulla nibh, quis euismod sem mattis quis. Nulla facilisi. Donec vitae efficitur nisl. Pellentesque vestibulum, sapien eu dapibus condimentum, metus est accumsan enim, sed fermentum ante magna nec neque. <span>Praesent malesuada, nibh vitae imperdiet ultrices,</span> libero tellus aliquam turpis, sit amet consectetur purus purus at sapien. Integer vel risus pharetra, fermentum turpis pulvinar, commodo tortor. Mauris convallis, erat sed ornare lacinia, leo justo pulvinar libero, ut fermentum dui mi a leo. Fusce euismod nulla in nibh venenatis, et placerat orci mollis.</p>
+    </div>
+</body>
+</html>
